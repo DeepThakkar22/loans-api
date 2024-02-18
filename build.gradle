@@ -102,6 +102,9 @@ dependencies {
     testImplementation 'io.rest-assured:json-schema-validator'
     testImplementation "com.github.javafaker:javafaker:0.18"
 
+    testImplementation 'com.intuit.karate:karate-junit4:0.6.0'
+    testImplementation 'com.intuit.karate:karate-apache:0.6.0'
+
     apt "org.projectlombok:lombok:$lombokVersion"
     apt "org.mapstruct:mapstruct-processor:$mapstructVersion"
 }
